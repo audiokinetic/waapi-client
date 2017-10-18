@@ -1,6 +1,6 @@
 {
   "name": "waapi-client-ts",
-  "version": "2017.1.0",
+  "version": "2017.1.1",
   "description": "Wwise Authoring API TypeScript Client",
   "scripts": {
     "prepublish": "tsc -p ./src --outDir dist/ --declaration"
