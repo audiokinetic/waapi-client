@@ -12,7 +12,7 @@
     "wamp",
     "waapi"
   ],
-  "author": "Audiokinetic",
+  "author": "Audiokinetic Inc.",
   "license": "Apache-2.0",
   "dependencies": {
     "@types/autobahn": "0.9.33",
