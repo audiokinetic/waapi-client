@@ -1,12 +1,12 @@
 {
   "name": "waapi-client-ts",
-  "version": "2017.1.0",
+  "version": "2017.2.0",
   "description": "Wwise Authoring API TypeScript Client",
   "scripts": {
     "prepublish": "tsc -p ./src --outDir dist/ --declaration"
   },
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",  
+  "types": "./dist/index.d.ts",
   "keywords": [
     "wwise",
     "wamp",
