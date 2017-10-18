@@ -1,0 +1,24 @@
+{
+  "name": "waapi-client-ts",
+  "version": "2017.1.0",
+  "description": "Wwise Authoring API TypeScript Client",
+  "scripts": {
+    "prepublish": "tsc -p ./src --outDir dist/ --declaration"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",  
+  "keywords": [
+    "wwise",
+    "wamp",
+    "waapi"
+  ],
+  "author": "Audiokinetic",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/autobahn": "0.9.33",
+    "autobahn": "0.11.2"
+  },
+  "devDependencies": {
+    "typescript": "2.4.2"
+  }
+}
