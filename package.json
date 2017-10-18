@@ -5,8 +5,8 @@
   "scripts": {
     "prepublish": "tsc -p ./src --outDir dist/ --declaration"
   },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/waapi-client.js",
+  "types": "./dist/waapi-client.d.ts",
   "keywords": [
     "wwise",
     "wamp",
