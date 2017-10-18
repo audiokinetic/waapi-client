@@ -6,7 +6,7 @@
     "prepublish": "tsc -p ./src --outDir dist/ --declaration"
   },
   "main": "./dist/waapi-client.js",
-  "types": "./dist/waapi-client.d.ts",
+  "typings": "./dist/waapi-client.d.ts",
   "keywords": [
     "wwise",
     "wamp",
