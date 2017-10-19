@@ -1,19 +1,21 @@
 # Wwise Authoring API TypeScript Client
 
-To use waapi client in a Node.js TypeScript project:
+To use waapi client in a Node.js project:
 
-`npm install waapi-client-ts --save`
+`npm install waapi-client --save`
 
-waapi-client-ts is normally used in conjunction with waapi module:
+waapi-client is normally used in conjunction with waapi module:
 
 `npm install waapi --save`
+
+waapi-client also comes with TypeScript definitions.
 
 ## Example
 
 This example is a Node.js TypeScript example using ES2015 js target.
 
 ```
-import * as waapi from 'waapi-client-ts';
+import * as waapi from 'waapi-client';
 import {ak} from 'waapi';
 
 async function main() {
