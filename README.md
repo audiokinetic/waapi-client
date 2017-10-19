@@ -1,4 +1,4 @@
-# Wwise Authoring API TypeScript Client
+# Wwise Authoring API Client
 
 To use waapi client in a Node.js project:
 
