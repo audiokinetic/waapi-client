@@ -12,4 +12,4 @@ Update the version in package.json file.
 
 ## Publishing
 
-npm update
+npm publish
