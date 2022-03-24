@@ -1,6 +1,6 @@
 {
   "name": "waapi-client",
-  "version": "2017.2.0",
+  "version": "2022.0.0",
   "description": "Wwise Authoring API Client",
   "scripts": {
     "prepublish": "tsc -p ./src --outDir dist/ --declaration"
