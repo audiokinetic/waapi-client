@@ -70,7 +70,7 @@ export class Session {
     }
 
     disconnect() {
-        return new Promise((resolve, reject) => {
+        return new Promise<void>((resolve, reject) => {
             if (this.session.isOpen) {
                 this.session.onleave = function (reason, details) {
                     resolve();
